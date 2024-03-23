@@ -1,4 +1,4 @@
-# 两数之和 2024-3-18
+# 1.两数之和 2024.3.18
 
 ## 题目
 
@@ -13,7 +13,7 @@
 按顺序枚举数组中的每一个数x，寻找数组中是否存在等于target-x的数
 并且对枚举的x，位于x前面的数以及和它匹配过了，只需要匹配它后面的数
 
-## C
+C
 
 ```c
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) 

@@ -1,4 +1,4 @@
-# 27.移除元素
+# 27.移除元素2024.3.22
 
 ## 题目
 
@@ -19,7 +19,7 @@ fast指针指向当前需要处理的元素，slow指针指向下一个需要赋
 2.若fast指向的值等于val，该值不在输出数组内，递增fast指针，slow指针保持不变。
 slow的值等于输出数组元素的个数，返回slow的值
 
-## C
+C
 
 ```c
 int removeElement(int* nums, int numsSize, int val) {
