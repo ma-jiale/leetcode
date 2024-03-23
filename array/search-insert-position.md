@@ -27,14 +27,9 @@ int searchInsert(int* nums, int numsSize, int target)
         return 0;
     if(target > nums[numsSize - 1])
         return numsSize;
-    for(int i = 0; i < numsSize; i++)
-    {
-        if(nums[i] == target)
-            return i;
-    }
     for(int j = 1; j < numsSize; j++)
     {
-        if(target > nums[j-1] && target < nums[j])
+        if(target > nums[j-1] && target <= nums[j])
             return j;
     }
     return -1;
